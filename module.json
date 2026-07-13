@@ -1,18 +1,21 @@
 {
-  "id": "",
-  "title": "",
+  "id": "an-alternate-psychic",
+  "title": "An Alternate Psychic",
   "version": "#{VERSION}#",
   "library": "false",
   "compatibility": {
-    "minimum": "14",
+    "minimum": "13",
     "verified": "14",
     "maximum": "14"
   },
   "flags": {
-    "": {
+    "an-alternate-psychic": {
       "pf2e-homebrew": {
         "featTraits": {
-          "": ""
+          "burnout": {
+            "label": "Burnout",
+            "description": "A burnout action pushes your mind to its limit. You can only use burnout actions while your psyche is unleashed. Immediately after you use a burnout action, you expend all of your remaining Focus Points and unleash psyche ends. You then can’t use burnout actions again until you make your daily preparations or Refocus."
+          }
         },
         "spellTraits": {
           "": ""
@@ -20,7 +23,7 @@
       }
     }
   },
-  "description": "",
+  "description": "An alternate take on the Psychic class for Pathfinder Second Edition, reworking Unleash Psyche, amps, and many of the class's feats.",
   "authors": [
     {
       "name": "Teridax68",
@@ -29,9 +32,9 @@
   ],
   "packs": [
     {
-      "name": "",
-      "label": "",
-      "path": "packs/",
+      "name": "an-alternate-psychic",
+      "label": "An Alternate Psychic",
+      "path": "packs/an-alternate-psychic",
       "type": "Item",
       "system": "pf2e",
       "flags": {}
@@ -44,5 +47,5 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
-  "readme": ""
+  "readme": "https://homebrewery.naturalcrit.com/share/CuoFSx3iP2Ri"
 }
